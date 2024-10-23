@@ -12,16 +12,16 @@
   --primary: rgb(63, 87, 166); /* #635B58 link*/
   --primary-foreground: rgb(57, 12, 87); /* #FCFBF9 */
 
-  --secondary: rgb(25, 188, 0); /* #A59B95 cabecera*/
+  --secondary: #cfc2ff; /* #A59B95 cabecera*/
   --secondary-foreground: hsla(209, 12%, 22%, 1); /* #323B42 */
 
   --h1: rgb(0, 0, 0); /* #8C817B */
   --h2: rgb(255, 255, 255); /* #FCFBF9 */
 
-  --accent: hsl(114, 100%, 84%); /* #B5A79F fondo texto*/
+  --accent: #cfc2ff; /* #B5A79F fondo texto*/
   --accent-foreground: rgb(96, 255, 71); /* #635B58 */
 
-  --destructive: rgb(0, 0, 0); /* #3B3634 texto*/
+  --destructive: rgb(48, 0, 145); /* #3B3634 texto*/
   --destructive-foreground: rgb(166, 211, 52); /* #FCFBF9 */
 
   --border: hsla(28, 13%, 61%, 1); /* #A59B95 */
