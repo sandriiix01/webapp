@@ -1,0 +1,50 @@
+{
+    "name": "rosua\/migrations",
+    "description": "Database Migrations tool for WordPress plugins",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rosua",
+            "email": "id@rosua.org"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "complete-check": [
+            "@check-rector",
+            "@check-ecs"
+        ],
+        "check-ecs": [
+            "vendor\/bin\/ecs check --ansi"
+        ],
+        "fix-ecs": [
+            "vendor\/bin\/ecs check --fix --ansi"
+        ],
+        "check-rector": [
+            "vendor\/bin\/rector process --dry-run --clear-cache --ansi"
+        ],
+        "fix-rector": [
+            "vendor\/bin\/rector process --clear-cache --ansi"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "_YabeWebfont\\Rosua\\Migrations\\": "src\/"
+        }
+    },
+    "require-dev": {
+        "rector\/rector": "^0.14.5",
+        "symplify\/easy-coding-standard": "^11.1",
+        "wp-cli\/wp-cli": "^2.7"
+    },
+    "require": {
+        "symfony\/finder": "^5.4"
+    }
+}

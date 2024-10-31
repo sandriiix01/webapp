@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'OCR-A';
+    src: url('../assets/fonts/OCRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EB-Garamond-Regular.woff2') format('woff2'),
+         url('../assets/fonts/EB-Garamond-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EB-Garamond-Bold.woff2') format('woff2'),
+         url('../assets/fonts/EB-Garamond-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
